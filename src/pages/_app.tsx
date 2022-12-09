@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="theme-color" content="#232946" />
         <meta
           name="description"
-          content="A simple project starter to work with Typescript, React, NextJs and Styled Component"
+          content="A simple study project using NextJS"
         />
       </Head>
       <GlobalStyles />

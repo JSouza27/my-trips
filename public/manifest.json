@@ -1,6 +1,6 @@
 {
-  "name": "Boilerplate next-app",
-  "short_name": "Boilerplate next-app",
+  "name": "My Trips",
+  "short_name": "My Trips",
   "icons": [
     {
       "src": "/img/icon-192.png",
@@ -15,7 +15,7 @@
   ],
   "theme_color": "#232946",
   "background_color": "#232946",
-  "description": "A simple project to show my favorite spots in the world.",
+  "description": "A simple study project using NextJS",
   "start_url": "/",
   "display": "fullscreeen"
 }
