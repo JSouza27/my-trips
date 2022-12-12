@@ -7,7 +7,10 @@ const withPWA = require('next-pwa')({
 
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true
+  swcMinify: true,
+  experimental: {
+    esmExternals: 'loose'
+  }
 }
 
 module.exports = withPWA(nextConfig)
