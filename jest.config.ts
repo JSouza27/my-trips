@@ -11,10 +11,14 @@ const config: JestConfigWithTsJest = {
   verbose: true,
   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
   collectCoverage: true,
+  coverageReporters: ['json', 'html'],
   collectCoverageFrom: [
-    'src/**/*.ts(x)?',
+    'src/components/**/*.ts(x)?',
     '!src/**/stories.tsx',
     '!src/pages/*.tsx',
+    '!src/graphql/*.ts',
+    '!src/graphql/generated/*.ts',
+    '!src/templates/**/*.ts(x)?',
     '!src/**/global.ts'
   ],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
